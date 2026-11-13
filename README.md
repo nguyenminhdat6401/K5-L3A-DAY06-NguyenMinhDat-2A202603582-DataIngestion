@@ -1,54 +1,99 @@
-# Day 06 · Data Ingestion Engineering
+# Hướng dẫn chạy bài Lab 6
 
-**Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
+## Môi trường
 
-Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.
+- Windows, Python 3.11.
+- Docker Desktop đang hoạt động.
+- PostgreSQL 16 + pgvector theo starter/docker-compose.yml.
+- Model local intfloat/multilingual-e5-small, CPU, 384 chiều.
+- Không cần API key cho embedding.
+- Cần mạng ở lần đầu tải thư viện, Docker image và model.
 
-| 📄 Dữ liệu | 🧩 Chiến lược | 🎯 Benchmark |
-|---|---|---|
-| Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
+Phiên bản thư viện đầy đủ: starter/requirements-lock.txt.
 
-## Bắt đầu nhanh
+## Setup từ thư mục gốc repo
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+```powershell
+cd starter
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements-lock.txt
+if (!(Test-Path .env)) { Copy-Item .env.example .env }
+docker compose -p day6_student_starter up -d --wait
+python scripts\check_setup.py
+```
 
-## 1. Xây pipeline
+Nếu PyTorch lỗi nạp DLL trên Windows, kiểm tra Visual C++ Runtime
+x64 theo hướng dẫn chính thức của PyTorch/Microsoft.
 
-![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
+## Dữ liệu
 
-Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
+Nguồn và quyền sử dụng nằm trong data/manifest.json.
+Corpus chuẩn hóa: data/corpus.jsonl.
+Trang được chọn: PDF 19–37 và 47–67.
+Số trang là số vật lý PDF, bắt đầu từ 1.
 
-## 2. So sánh và đánh giá
+Model revision:
+614241f622f53c4eeff9890bdc4f31cfecc418b3
 
-![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)
+Không thay corpus, benchmark, model hoặc code đã freeze rồi
+coi kết quả test cũ là đánh giá độc lập cho cấu hình mới.
 
-Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
+## Chạy lại từ snapshot chunk và vector đã nộp
 
-Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
+```powershell
+python scripts\ingest_store.py
+python -m src.run
+python scripts\run_test.py
+```
 
-## 3. Chuẩn bị bài nộp
+ingest_store.py kiểm tra hash, nạp A/B và nạp lại để kiểm tra
+không trùng. C dùng chung dữ liệu B.
 
-1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
-2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
-3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
+src.run chạy dev; run_test.py kiểm tra experiment freeze và chạy
+test. Mỗi lần chạy tạo thư mục kết quả mới.
 
-## Tài liệu hướng dẫn
+Các hash kiểm tra byte của file; giữ nguyên nội dung và encoding
+của các file đã freeze.
 
-| Bạn cần tìm | Tài liệu |
-|---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
-| Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
-| Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
-| Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
-| Tiêu chí chấm điểm | [RUBRIC.md](RUBRIC.md) |
-| Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
-| Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
+## Các bước xây dựng dữ liệu đã thực hiện
 
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+Theo thứ tự:
+1. scripts/extract_corpus.py
+2. scripts/prepare_corpus.py — phạm vi dự kiến ban đầu.
+3. scripts/build_corpus.py — phạm vi cuối gồm 40 trang.
+4. Kiểm tra data/content_review.csv.
+5. scripts/build_chunks.py
+6. scripts/build_benchmark.py và kiểm tra benchmark/review.csv.
+7. scripts/build_embeddings.py
+8. scripts/ingest_store.py
+9. python -m src.run
+10. scripts/freeze_experiment.py
+11. scripts/run_test.py
+12. scripts/prepare_manual_audit.py
+13. Điền các CSV audit.
+14. scripts/summarize_results.py
+
+Các script benchmark, embedding và freeze có chặn ghi đè để
+bảo vệ lịch sử thí nghiệm. Không chạy lại các bước tạo đầu vào
+trên snapshot đã nộp nếu chỉ muốn tái lập retrieval.
+
+## Kết quả và nhãn
+
+- Báo cáo: report/individual/
+- Tổng hợp: results/summary/RESULTS.md
+- Dev dùng để chọn cấu hình:
+  results/dev/20261113T044849_688540Z/
+- Test:
+  results/test/20261113T045414_716271Z/
+- Audit:
+  results/manual/20261113T045414_716271Z/
+- Freeze: results/frozen/experiment.json
+- Nhật ký cấu hình: artifacts/experiment_log.csv
 
 
-## Bài làm của học viên
+## Dừng database và giữ dữ liệu
 
-- [Hướng dẫn setup và chạy lại](RUN_GUIDE.md)
-- [Kết quả tổng hợp](results/summary/RESULTS.md)
-- [Báo cáo cá nhân](report/individual/2A202603582_NguyenMinhDat.md)
+```powershell
+docker compose -p day6_student_starter stop
+```
