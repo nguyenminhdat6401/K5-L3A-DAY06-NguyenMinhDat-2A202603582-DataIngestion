@@ -1,0 +1,4 @@
+*.py -text
+*.json -text
+*.jsonl -text
+*.csv -text

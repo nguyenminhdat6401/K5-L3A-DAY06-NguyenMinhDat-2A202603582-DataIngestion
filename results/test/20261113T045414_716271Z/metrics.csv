@@ -1,0 +1,4 @@
+﻿strategy,split,n,hit1_n,hit3_n,hit1,hit3
+A,test,5,2,2,0.4,0.4
+B,test,5,2,4,0.4,0.8
+C,test,5,2,4,0.4,0.8

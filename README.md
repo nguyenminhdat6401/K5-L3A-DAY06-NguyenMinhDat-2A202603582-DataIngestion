@@ -45,3 +45,10 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+
+## Bài làm của học viên
+
+- [Hướng dẫn setup và chạy lại](RUN_GUIDE.md)
+- [Kết quả tổng hợp](results/summary/RESULTS.md)
+- [Báo cáo cá nhân](report/individual/2A202603582_NguyenMinhDat.md)

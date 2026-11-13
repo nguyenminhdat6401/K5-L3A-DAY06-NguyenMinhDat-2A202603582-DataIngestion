@@ -1,0 +1,17 @@
+{
+  "A": {
+    "method": "fixed_size",
+    "size": 500,
+    "overlap": 50,
+    "filter_enabled": false
+  },
+  "B": {
+    "method": "by_paragraph",
+    "max_size": 900,
+    "filter_enabled": false
+  },
+  "C": {
+    "same_chunks_as": "B",
+    "filter_enabled": true
+  }
+}

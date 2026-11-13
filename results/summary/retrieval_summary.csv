@@ -1,0 +1,7 @@
+﻿strategy,split,hit1_n,hit3_n,n,hit1_percent,hit3_percent
+A,dev,6,10,15,40.0,66.67
+B,dev,9,12,15,60.0,80.0
+C,dev,9,12,15,60.0,80.0
+A,test,2,2,5,40.0,40.0
+B,test,2,4,5,40.0,80.0
+C,test,2,4,5,40.0,80.0

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,source_page_section,none,intfloat/multilingual-e5-small,Baseline cua so ky tu,0.4,0.6666666667,0.4,0.4,290 chunks; embedding 8.984s; first DB write 0.098s; log completed retrospectively
+B,paragraph_sentence_word,900,0,source_page_section,none,intfloat/multilingual-e5-small,Kiem tra cau hinh uu tien ranh gioi cau truc,0.6,0.8,0.4,0.8,196 chunks; embedding 7.351s; first DB write 0.072s; selected on dev; log completed retrospectively
+C,same_as_B,900,0,source_page_section,question_supplied_section,intfloat/multilingual-e5-small,Kiem tra anh huong metadata filter khi giu nguyen chunk,0.6,0.8,0.4,0.8,Shares B chunks and vectors; test filter compliance 1/1; log completed retrospectively

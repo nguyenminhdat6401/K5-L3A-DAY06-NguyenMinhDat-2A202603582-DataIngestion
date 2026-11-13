@@ -1,0 +1,115 @@
+{
+  "frozen_at_utc": "2026-11-13T04:52:28.778448+00:00",
+  "selected_strategy": "B",
+  "selection_rule": "Choose highest dev Evidence Hit@3, then highest dev Hit@1, then fewer chunks. If still tied, prefer B, then A, then C.",
+  "dev_run": "results\\dev\\20261113T044849_688540Z",
+  "dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 6,
+      "hit3_n": 10,
+      "hit1": 0.4,
+      "hit3": 0.6666666666666666
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 9,
+      "hit3_n": 12,
+      "hit1": 0.6,
+      "hit3": 0.8
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 9,
+      "hit3_n": 12,
+      "hit1": 0.6,
+      "hit3": 0.8
+    }
+  ],
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "coherence_anchors": [
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 19,
+      "char_position": 896
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 20,
+      "char_position": 1305
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 21,
+      "char_position": 1631
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 22,
+      "char_position": 1928
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 23,
+      "char_position": 1972
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 47,
+      "char_position": 713
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 48,
+      "char_position": 1545
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 49,
+      "char_position": 1570
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 50,
+      "char_position": 1625
+    },
+    {
+      "document_id": "openstax-sociology3e",
+      "page": 51,
+      "char_position": 1903
+    }
+  ],
+  "file_hashes": {
+    "benchmark/questions.json": "25beb9054d77cab34bb08ed0f794c23064dbca307626df6ea75b4ce5a36f0e8a",
+    "benchmark/protocol.json": "1bf53800f0a0662f85c2eaee951eda9b1b8ee27bbfd723a9ac79464448559c32",
+    "benchmark/review.csv": "b1a0ed1ddd696e7e5194c63399d5c875c2bdc9b031a37d03664b931afc6e8974",
+    "data/manifest.json": "6fe43f6b4606dedb7d0bb7ea9eced80571d1fdbe2474891be718bd7fd8821164",
+    "data/corpus.jsonl": "52dbd9d7e3b64b97b3cb7626cf679cc4479d5decdd46c9552624b9317704b840",
+    "data/content_review.csv": "5e97a8272737c16dafbf9622bef0ae5906ebba7f984484d83a78830885fd51a0",
+    "results/embeddings/embedding_info.json": "16869cc377a4738e77f605415ec954326a0e21cbf1a011bb8679abb1e304b2bc",
+    "results/chunking/strategies.json": "dac5a50fa19ddeafb60fc0ed2ed5fa32c53c17d45f77a9ecd099c88e97292ad8",
+    "results/dev/20261113T044849_688540Z/traces.jsonl": "f817f7e2785fb301392ed63fcea590996eb7a74ebff520c03cf557a86e5529d1",
+    "results/dev/20261113T044849_688540Z/run_info.json": "2a6aee04ccd935799fd57e619e6f3bcc0f74e5abd48ed04a4ddfcd223c733d88",
+    "results/chunking/chunks_A.jsonl": "fac9076e1a7ef60c45d5e897258ef24f0a00f577feb888683e6753d9bad914d4",
+    "results/embeddings/vectors_A.jsonl": "daf4091d310575a47c255a61da0191565d5ee4263a11b95df0dc563e5135b639",
+    "results/chunking/chunks_B.jsonl": "293eb79566332c4e237ffd471fb53817ca46d3d8a8165082919e9497f4013261",
+    "results/embeddings/vectors_B.jsonl": "607e77ba6b9faf5368264f2c566090759a51806daed99a97ae92ac2c66b2699a",
+    "starter/src/__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8",
+    "starter/src/chunking.py": "c51d2986b99a11f3e8fa0b2926b39d83e0f76b4357cbf4ad77ce0822f41fdf7b",
+    "starter/src/embeddings.py": "ae034245be1d0f70cd7354d045f4a8a4d440bc52cbc4a98b473dfe7e211699c8",
+    "starter/src/evaluation.py": "9b8965f2c7940a9547a1e9db2edda7f067709d7f3c0ca0918dccd258c4cd048d",
+    "starter/src/ingestion.py": "55dc19d74fbb088fdf18d9a7b7bfbd3b67f487f6305d6973be96e76e0f4137f5",
+    "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+    "starter/src/run.py": "c48b0ce1bbb4f7ee9a949f054b0db6cf78d131f41884e7c89844eadf6f60b5c7",
+    "starter/src/store.py": "86f9892e490cb96f8fab5db14e5dbf33e128e62d94754fa50e843e4e1c7997bf"
+  },
+  "test_policy": "Evaluate all A/B/C on test without changing the recorded dev-based selection."
+}

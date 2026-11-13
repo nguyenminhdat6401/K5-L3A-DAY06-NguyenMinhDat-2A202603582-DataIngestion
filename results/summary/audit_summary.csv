@@ -1,0 +1,4 @@
+﻿strategy,coherence_mean_out_of_2,coherence_n,metadata_correct_n,metadata_checked_n,filter_questions_pass_n,filter_questions_n,grounding_score_0_n,grounding_score_1_n,grounding_score_2_n,grounding_mean_out_of_2,grounding_n
+A,1.0,10,15,15,1,1,1,2,2,1.2,5
+B,1.8,10,15,15,0,1,1,0,4,1.6,5
+C,1.8,10,15,15,1,1,1,0,4,1.6,5

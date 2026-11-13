@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-11-13T04:41:22.323243+00:00",
+  "provider": "local sentence-transformers",
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "device": "cpu",
+  "document_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "normalized_embeddings": true,
+  "model_load_seconds": 5.509,
+  "paid_api_cost": 0,
+  "cost_note": "Local execution; electricity/hardware not priced.",
+  "sentence_transformers_version": "5.7.0",
+  "torch_version": "2.15.0",
+  "benchmark_sha256": "25beb9054d77cab34bb08ed0f794c23064dbca307626df6ea75b4ce5a36f0e8a",
+  "strategies": {
+    "A": {
+      "chunk_count": 290,
+      "embedding_seconds": 8.984,
+      "chunk_file_sha256": "fac9076e1a7ef60c45d5e897258ef24f0a00f577feb888683e6753d9bad914d4",
+      "vector_file_sha256": "daf4091d310575a47c255a61da0191565d5ee4263a11b95df0dc563e5135b639"
+    },
+    "B": {
+      "chunk_count": 196,
+      "embedding_seconds": 7.351,
+      "chunk_file_sha256": "293eb79566332c4e237ffd471fb53817ca46d3d8a8165082919e9497f4013261",
+      "vector_file_sha256": "607e77ba6b9faf5368264f2c566090759a51806daed99a97ae92ac2c66b2699a"
+    }
+  },
+  "C": "Reuse B chunks and vectors; apply query filters later."
+}

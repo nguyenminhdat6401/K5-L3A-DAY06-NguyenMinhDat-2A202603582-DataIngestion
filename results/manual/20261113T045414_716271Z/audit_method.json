@@ -1,0 +1,10 @@
+{
+  "test_run": "20261113T045414_716271Z",
+  "freeze_file_sha256": "0b614193a2787128c37de8af8545f1a570a16f3c2259b0b92ddbbc167d612f98",
+  "coherence_sample": "10 frozen source anchors per strategy; choose covering chunk with earliest char_start, then chunk_id.",
+  "coherence_rows": 30,
+  "metadata_rows": 45,
+  "grounding_rows": 15,
+  "human_labels": "Blank; to be entered by the student.",
+  "C_coherence": "Same chunk text as B; equal coherence labels are expected when judged by the same criteria."
+}

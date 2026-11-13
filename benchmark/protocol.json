@@ -1,0 +1,17 @@
+{
+  "dev_count": 15,
+  "test_count": 5,
+  "filter_question_ids": [
+    "q07",
+    "q12",
+    "q19"
+  ],
+  "selection_rule": "Choose highest dev Evidence Hit@3, then highest dev Hit@1, then fewer chunks. If still tied, prefer B, then A, then C.",
+  "filter_policy": "Only C applies the question's supplied filter. A and B ignore filters. C uses no filter when absent.",
+  "test_policy": "Finalize configurations and select a strategy on dev before running test. Report test for all strategies without tuning against test results.",
+  "split_method": "Manual split: dev q01-q15, test q16-q20. Both splits cover both chapters. Related concepts may overlap, so topic leakage is a limitation.",
+  "manual_review_status": "Pending",
+  "benchmark_sha256": "25beb9054d77cab34bb08ed0f794c23064dbca307626df6ea75b4ce5a36f0e8a",
+  "ai_assistance": "Questions and code drafted with AI assistance; evidence checked against extracted text. Student must verify answer support against the PDF.",
+  "hash_update_reason": "Reconfirmed current benchmark before any retrieval experiment."
+}

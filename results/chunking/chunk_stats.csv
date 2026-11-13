@@ -1,0 +1,3 @@
+﻿strategy,page_count,chunk_count,min_chars,median_chars,mean_chars,max_chars,total_chunk_chars
+A,40,290,59,500.0,468.89,500,135979
+B,40,196,27,667.5,629.99,900,123479

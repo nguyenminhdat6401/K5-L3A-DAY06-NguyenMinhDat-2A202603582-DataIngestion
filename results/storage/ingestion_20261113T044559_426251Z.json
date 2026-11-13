@@ -1,0 +1,35 @@
+{
+  "run_at_utc": "2026-11-13T04:45:59.424126+00:00",
+  "versions": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "model_signature": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|dimensions=384|prefix=passage: |normalized=True",
+  "embedding_info_sha256": "16869cc377a4738e77f605415ec954326a0e21cbf1a011bb8679abb1e304b2bc",
+  "metric": "cosine",
+  "search": "exact; no approximate vector index",
+  "update_policy": "Atomic full replacement per strategy; obsolete chunks are removed.",
+  "results": [
+    {
+      "strategy": "A",
+      "expected_count": 290,
+      "first_count": 290,
+      "second_count": 290,
+      "first_store_seconds": 0.098,
+      "second_store_seconds": 0.097,
+      "embedding_seconds": 8.984,
+      "repeat_ingestion_passed": true
+    },
+    {
+      "strategy": "B",
+      "expected_count": 196,
+      "first_count": 196,
+      "second_count": 196,
+      "first_store_seconds": 0.072,
+      "second_store_seconds": 0.075,
+      "embedding_seconds": 7.351,
+      "repeat_ingestion_passed": true
+    }
+  ],
+  "C": "Shares stored B chunks and vectors."
+}

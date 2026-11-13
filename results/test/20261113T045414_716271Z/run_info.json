@@ -1,0 +1,20 @@
+{
+  "run_id": "20261113T045414_716271Z",
+  "split": "test",
+  "question_count": 5,
+  "trace_count": 15,
+  "selected_strategy_from_dev": "B",
+  "freeze_file_sha256": "0b614193a2787128c37de8af8545f1a570a16f3c2259b0b92ddbbc167d612f98",
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "metric": "cosine",
+  "search": "exact",
+  "top_k": 3,
+  "query_embedding_seconds": 0.12,
+  "database_versions": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "selection_changed_using_test": false
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "20261113T044849_688540Z",
+  "split": "dev",
+  "question_count": 15,
+  "trace_count": 45,
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "metric": "cosine",
+  "search": "exact",
+  "top_k": 3,
+  "query_embedding_seconds": 0.297,
+  "benchmark_sha256": "25beb9054d77cab34bb08ed0f794c23064dbca307626df6ea75b4ce5a36f0e8a",
+  "embedding_info_sha256": "16869cc377a4738e77f605415ec954326a0e21cbf1a011bb8679abb1e304b2bc",
+  "selection_rule": "Choose highest dev Evidence Hit@3, then highest dev Hit@1, then fewer chunks. If still tied, prefer B, then A, then C.",
+  "test_retrieval_executed": false
+}

@@ -1,0 +1,277 @@
+﻿strategy,question_id,question,expected_answer,gold_page,gold_evidence,top3_text,auto_hit1,auto_hit3,score_0_1_2,reason
+A,q16,Một nhóm người cần có những đặc điểm nào để được gọi là society theo định nghĩa trong sách?,"Sống trong một khu vực địa lý xác định, tương tác với nhau và chia sẻ một nền văn hóa chung.",20,"A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society.","RANK 1 | PDF PAGE 30 | SECTION chapter_1
+e human body. He argued that just as the various organs of the body work together to keep the body functioning, the various parts of society work together to keep society functioning (Spencer, 1898). The parts of society that Spencer referred to were the social institutions, or patterns of beliefs and behaviors focused on meeting social needs, such as government, education, family, healthcare, religion, and the economy.
+
+Émile Durkheim applied Spencer’s theory to explain how societies change and
+
+RANK 2 | PDF PAGE 20 | SECTION chapter_1
+ sociology. • Describe how different sociological perspectives have developed. What Are Society and Culture?
+
+FIGURE 1.2 Sociologists learn about society while studying one-to-one and group interactions. (Credit: GlacierNPS/ Flickr)
+
+Sociology is the scientific and systematic study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups. A group of people who live in a defined geographic area, who interact with one another, and who
+
+RANK 3 | PDF PAGE 21 | SECTION chapter_1
+ life, from routine, everyday interactions to the most important parts of group members’ lives. It includes everything produced by a society, including all the social rules.
+
+Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions. It’s a way of seeing our own and other people’s behav",FALSE,FALSE,1,"Rank 2 trang PDF 20 nêu khu vực địa lý và tương tác, nhưng bị cắt trước điều kiện chia sẻ văn hóa chung; top-3 chưa đủ định nghĩa society."
+A,q17,"Theo C. Wright Mills, sociological imagination giúp nhận biết mối liên hệ nào?","Mối liên hệ giữa hành vi, trải nghiệm cá nhân và nền văn hóa rộng hơn định hình lựa chọn, nhận thức.",21,"Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions.","RANK 1 | PDF PAGE 21 | SECTION chapter_1
+ life, from routine, everyday interactions to the most important parts of group members’ lives. It includes everything produced by a society, including all the social rules.
+
+Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions. It’s a way of seeing our own and other people’s behav
+
+RANK 2 | PDF PAGE 21 | SECTION chapter_1
+s a way of seeing our own and other people’s behavior in relationship to history and social structure (1959). One illustration of this is a person’s decision to marry. In the United States, this choice is heavily influenced by individual feelings. However, the social acceptability of marriage relative to the person’s circumstances also plays a part.
+
+Remember, though, that culture is a product of the people in a society. Sociologists take care not to treat the concept of “culture” as though it w
+
+RANK 3 | PDF PAGE 28 | SECTION chapter_1
+t their importance.
+
+George Herbert Mead (1863–1931)
+
+George Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk, n.d.). He argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others. Though Mead adopted Cooley’s concept of ‘looking-glasses,’ Mead felt that an individual’s reaction to a positive or negative reflection depen",TRUE,TRUE,2,"Rank 1 trang PDF 21 có đủ định nghĩa của Mills về quan hệ giữa hành vi, trải nghiệm cá nhân và văn hóa rộng hơn; truy được nguồn."
+A,q18,"Ai đặt ra thuật ngữ sociology đầu tiên, vào năm nào, và ai đưa thuật ngữ này trở lại vào năm 1838?",Emmanuel-Joseph Sieyès đặt ra năm 1780; Auguste Comte đưa thuật ngữ trở lại năm 1838.,24,"The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857).","RANK 1 | PDF PAGE 24 | SECTION chapter_1
+ttom row, left to right: Goerg Simmel, Émile Durkheim, and Max Weber. (Credit: Wikimedia Commons; Julius Cornelius Schaarwächter/Public domain.)
+
+Auguste Comte (1798 – 1857)
+
+The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857). Comte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de R
+
+RANK 2 | PDF PAGE 27 | SECTION chapter_1
+veness of policies. In order for sociology to gain respectability in American academia, social researchers understood that they must adopt empirical approaches.
+
+W.E.B. Du Bois (1868-1963)
+
+William Edward Burghardt (W.E.B.) Du Bois, a Harvard-trained historian, pioneered the use of rigorous empirical methodology into sociology. His groundbreaking 1896-1897 study of the African American community in Philadelphia incorporated hundreds of interviews Du Bois conducted in order to document the famili
+
+RANK 3 | PDF PAGE 26 | SECTION chapter_1
+Sociological Method in 1895. In Division of Labour in Society (1893), Durkheim further laid out his theory on how societies transformed from a primitive state into a capitalist, industrial society. According to Durkheim, people rise to their proper levels in society based on merit.
+
+Durkheim believed that sociologists could study objective social facts (Poggi, 2000). He also believed that through such studies it would be possible to determine if a society was “healthy” or “pathological.” Healthy",TRUE,TRUE,2,"Rank 1 trang PDF 24 nêu đủ Sieyès, năm 1780 và Comte đưa thuật ngữ trở lại năm 1838."
+A,q19,"Trong phạm vi chương 2, vì sao case study có hạn chế khi dùng để đưa ra kết luận khái quát?",Nghiên cứu một trường hợp cung cấp chiều sâu nhưng không đủ bằng chứng để đưa ra kết luận khái quát.,62,"However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion.","RANK 1 | PDF PAGE 62 | SECTION chapter_2
+50 2 • Sociological Research
+
+FIGURE2.9 A classroom in Muncie, Indiana, in 1917, five years before John and Helen Lynd began researching this “typical” U.S. community. (Credit: Don O’Brien/flickr)
+
+Case Study
+
+Sometimes a researcher wants to study one specific person or event. A case study is an in-depth analysis of a single event, situation, or individual. To conduct a case study, a researcher examines existing sources like documents and archival records, conducts interviews, engages in direct 
+
+RANK 2 | PDF PAGE 62 | SECTION chapter_2
+t Oxana into society, where she was cared for and taught some human behaviors, but she never became fully socialized. She has been designated as unable to support herself and now lives in a mental institution (Grice 2011). Case studies like this offer a way for sociologists to collect data that may not be obtained by any other method. Experiments
+
+You have probably tested some of your own personal social theories. “If I study at night and review in the morning, I’ll improve my retention skills.”
+
+RANK 3 | PDF PAGE 51 | SECTION chapter_2
+s a C or better, while another uses a B+ as a starting point for “good.” For the results to be replicated and gain acceptance within the broader scientific community, researchers would have to use a standard operational definition. These definitions set limits and establish cut-off points that ensure consistency and replicability in a study.
+
+We will explore research methods in greater detail in the next section of this chapter.
+
+Step 5: Draw Conclusions
+
+After constructing the research design, ",FALSE,FALSE,1,"Rank 1 trang PDF 62 giải thích case study tập trung vào một trường hợp, nhưng top-3 thiếu lập luận vì sao không đủ bằng chứng để khái quát."
+A,q20,"Nếu kết quả trái với quan điểm cá nhân hoặc dự đoán ban đầu, nhà nghiên cứu có nghĩa vụ gì?",Vẫn phải báo cáo kết quả.,65,"Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.","RANK 1 | PDF PAGE 55 | SECTION chapter_2
+alcohol?” or “Did you feel that the divorce of your parents would put a social stigma on your family?” involve so many factors that the answers are difficult to categorize. A researcher needs to avoid steering or prompting the subject to respond in a specific way; otherwise, the results will prove to be unreliable. The researcher will also benefit from gaining a subject’s trust, from empathizing or commiserating with a subject, and from listening without judgment.
+
+Surveys often collect both qua
+
+RANK 2 | PDF PAGE 54 | SECTION chapter_2
+religious beliefs, political views, goals, or morals. The answers are subjective and vary from person to person. How do plan to use your college education?
+
+Some topics that investigate internal thought processes are impossible to observe directly and are difficult to discuss honestly in a public forum. People are more likely to share honest answers if they can respond to questions anonymously. This type of personal explanation is qualitative data—conveyed through words. Qualitative information 
+
+RANK 3 | PDF PAGE 51 | SECTION chapter_2
+tionalizing the concept, all researchers can collect data in a systematic or replicable manner. Moreover, researchers can determine whether the experiment or method validly represent the phenomenon they intended to study.
+
+A study asking how tutoring improves grades, for instance, might define “tutoring” as “one-on-one assistance by an expert in the field, hired by an educational institution.” However, one researcher might define a “good” grade as a C or better, while another uses a B+ as a star",FALSE,FALSE,0,"Top-3 nói về phỏng vấn, dữ liệu và đo lường; không có bằng chứng về nghĩa vụ báo cáo kết quả trái quan điểm hoặc dự đoán."
+B,q16,Một nhóm người cần có những đặc điểm nào để được gọi là society theo định nghĩa trong sách?,"Sống trong một khu vực địa lý xác định, tương tác với nhau và chia sẻ một nền văn hóa chung.",20,"A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society.","RANK 1 | PDF PAGE 36 | SECTION chapter_1
+• an understanding of social systems and large bureaucracies; • the ability to devise and carry out research projects to assess whether a program or policy is working; • the ability to collect, read, and analyze statistical information from polls or surveys; • the ability to recognize important differences in people’s social, cultural, and economic backgrounds; • skills in preparing reports and communicating complex ideas; and • the capacity for critical thinking about social issues and problems that confront modern society. (Department of Sociology, University of Alabama-Huntsville)
+
+
+
+RANK 2 | PDF PAGE 35 | SECTION chapter_1
+The predominant American sociologist, the late Peter L. Berger (1929–2017), in his 1963 book, Invitation to Sociology: A Humanistic Perspective, describes a sociologist as “someone concerned with understanding society in a disciplined way.” He asserts that sociologists have a natural interest in the monumental moments of people’s lives, as well as a fascination with banal, everyday occurrences. Berger also describes the “aha”
+
+RANK 3 | PDF PAGE 20 | SECTION chapter_1
+The work sociologists do to understand our society, and the work you will do in learning about it, is meaningful to our lives and our futures. 1.1 What Is Sociology?
+
+LEARNING OBJECTIVES By the end of this section, you should be able to: • Explain concepts central to sociology. • Describe how different sociological perspectives have developed. What Are Society and Culture?
+
+FIGURE 1.2 Sociologists learn about society while studying one-to-one and group interactions. (Credit: GlacierNPS/ Flickr)
+
+Sociology is the scientific and systematic study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups. A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society.
+
+",FALSE,TRUE,2,"Rank 3 trang PDF 20 có đủ ba điều kiện của society: khu vực địa lý, tương tác và văn hóa chung."
+B,q17,"Theo C. Wright Mills, sociological imagination giúp nhận biết mối liên hệ nào?","Mối liên hệ giữa hành vi, trải nghiệm cá nhân và nền văn hóa rộng hơn định hình lựa chọn, nhận thức.",21,"Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions.","RANK 1 | PDF PAGE 21 | SECTION chapter_1
+Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions. It’s a way of seeing our own and other people’s behavior in relationship to history and social structure (1959). One illustration of this is a person’s decision to marry. In the United States, this choice is heavily influenced by individual feelings. However, the social acceptability of marriage relative to the person’s circumstances also plays a part.
+
+
+
+RANK 2 | PDF PAGE 22 | SECTION chapter_1
+A key component of the sociological perspective is the idea that the individual and society are inseparable. It is impossible to study one without the other. German sociologist Norbert Elias called the process of simultaneously analyzing the behavior of individuals and the society that shapes that behavior figuration.
+
+
+
+RANK 3 | PDF PAGE 30 | SECTION chapter_1
+Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time. Durkheim believed that society is a complex system of interrelated and interdependent parts that work together to maintain stability (Durkheim, 1893), and that society is held together by shared values, languages, and symbols. He believed that to study society, a sociologist must look beyond individuals to social facts such as laws, morals, values, religious beliefs, customs, fashion, and rituals, which all serve to govern social life (Durkheim, 1895). Alfred Radcliff-Brown (1881–1955) defined the function of any recurrent activity as the part it played in social life as a whole, and therefore the contribution it makes to social stability and continuity (Radcliff-Brown 1952). ",TRUE,TRUE,2,"Rank 1 trang PDF 21 có định nghĩa đầy đủ của Mills và ví dụ minh họa, đủ trả lời và truy nguồn."
+B,q18,"Ai đặt ra thuật ngữ sociology đầu tiên, vào năm nào, và ai đưa thuật ngữ này trở lại vào năm 1838?",Emmanuel-Joseph Sieyès đặt ra năm 1780; Auguste Comte đưa thuật ngữ trở lại năm 1838.,24,"The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857).","RANK 1 | PDF PAGE 24 | SECTION chapter_1
+The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857). Comte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de Rouvroy Comte de Saint-Simon (1760–1825). They both thought that social scientists could study society using the same scientific methods utilized in natural sciences. Comte also believed in the potential of social scientists to work toward the betterment of society. He held that once scholars identified the laws that governed society, sociologists could address problems such as poor education and poverty (Abercrombie et al. 2000).
+
+Comte named the scientific study of social patterns positivism. He described his philosophy in a series of
+
+Access for free at openstax.org.
+
+RANK 2 | PDF PAGE 25 | SECTION chapter_1
+In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title. Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another.
+
+Georg Simmel (1858–1918)
+
+
+
+RANK 3 | PDF PAGE 26 | SECTION chapter_1
+14 1 • An Introduction to Sociology
+
+and analyzed the dynamics of two-person and three-person groups. His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004).
+
+Émile Durkheim (1858–1917)
+
+Émile Durkheim helped establish sociology as a formal academic discipline by establishing the first European department of sociology at the University of Bordeaux in 1895 and by publishing his Rules of the Sociological Method in 1895. In Division of Labour in Society (1893), Durkheim further laid out his theory on how societies transformed from a primitive state into a capitalist, industrial society. According to Durkheim, people rise to their proper levels in society based on merit.
+
+",TRUE,TRUE,2,"Rank 1 trang PDF 24 nêu đầy đủ người đặt thuật ngữ, năm đặt và người đưa thuật ngữ trở lại năm 1838."
+B,q19,"Trong phạm vi chương 2, vì sao case study có hạn chế khi dùng để đưa ra kết luận khái quát?",Nghiên cứu một trường hợp cung cấp chiều sâu nhưng không đủ bằng chứng để đưa ra kết luận khái quát.,62,"However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion.","RANK 1 | PDF PAGE 62 | SECTION chapter_2
+50 2 • Sociological Research
+
+FIGURE2.9 A classroom in Muncie, Indiana, in 1917, five years before John and Helen Lynd began researching this “typical” U.S. community. (Credit: Don O’Brien/flickr)
+
+Case Study
+
+Sometimes a researcher wants to study one specific person or event. A case study is an in-depth analysis of a single event, situation, or individual. To conduct a case study, a researcher examines existing sources like documents and archival records, conducts interviews, engages in direct observation and even participant observation, if possible.
+
+
+
+RANK 2 | PDF PAGE 62 | SECTION chapter_2
+Researchers might use this method to study a single case of a foster child, drug lord, cancer patient, criminal, or rape victim. However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion. In other words, it is difficult to make universal claims based on just one person, since one person does not verify a pattern. This is why most sociologists do not use case studies as a primary research method.
+
+
+
+RANK 3 | PDF PAGE 35 | SECTION chapter_1
+1.4 • Why Study Sociology? 23
+
+1.4 Why Study Sociology?
+
+LEARNING OBJECTIVES By the end of this section, you should be able to: • Explain why it is worthwhile to study sociology. • Identify ways sociology is applied in the real world.
+
+FIGURE 1.9 The research of Kenneth and Mamie Clark helped the Supreme Court decide to end “separate but equal” racial segregation in schools in the United States. (Credit: University of Texas)
+
+",FALSE,TRUE,2,Rank 2 trang PDF 62 giải thích rõ một trường hợp cung cấp chiều sâu nhưng không đủ để khái quát; rank 3 ngoài phạm vi chapter_2 là lỗi filter đã ghi riêng.
+B,q20,"Nếu kết quả trái với quan điểm cá nhân hoặc dự đoán ban đầu, nhà nghiên cứu có nghĩa vụ gì?",Vẫn phải báo cáo kết quả.,65,"Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.","RANK 1 | PDF PAGE 55 | SECTION chapter_2
+Questions such as “How does society’s view of alcohol consumption influence your decision whether or not to take your first sip of alcohol?” or “Did you feel that the divorce of your parents would put a social stigma on your family?” involve so many factors that the answers are difficult to categorize. A researcher needs to avoid steering or prompting the subject to respond in a specific way; otherwise, the results will prove to be unreliable. The researcher will also benefit from gaining a subject’s trust, from empathizing or commiserating with a subject, and from listening without judgment.
+
+
+
+RANK 2 | PDF PAGE 53 | SECTION chapter_2
+Not all surveys are considered sociological research, however, and many surveys people commonly encounter focus on identifying marketing needs and strategies rather than testing a hypothesis or contributing to social science knowledge. Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research. The Nielsen Ratings determine the popularity of television programming through scientific market research. However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience. You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores. They often provide you incentives for completing
+
+RANK 3 | PDF PAGE 51 | SECTION chapter_2
+A study asking how tutoring improves grades, for instance, might define “tutoring” as “one-on-one assistance by an expert in the field, hired by an educational institution.” However, one researcher might define a “good” grade as a C or better, while another uses a B+ as a starting point for “good.” For the results to be replicated and gain acceptance within the broader scientific community, researchers would have to use a standard operational definition. These definitions set limits and establish cut-off points that ensure consistency and replicability in a study.
+
+We will explore research methods in greater detail in the next section of this chapter.
+
+Step 5: Draw Conclusions
+
+",FALSE,FALSE,0,Top-3 không chứa nghĩa vụ công bố kết quả khi trái quan điểm cá nhân hoặc dự đoán; các đoạn về khảo sát và đo lường không đủ hỗ trợ đáp án.
+C,q16,Một nhóm người cần có những đặc điểm nào để được gọi là society theo định nghĩa trong sách?,"Sống trong một khu vực địa lý xác định, tương tác với nhau và chia sẻ một nền văn hóa chung.",20,"A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society.","RANK 1 | PDF PAGE 36 | SECTION chapter_1
+• an understanding of social systems and large bureaucracies; • the ability to devise and carry out research projects to assess whether a program or policy is working; • the ability to collect, read, and analyze statistical information from polls or surveys; • the ability to recognize important differences in people’s social, cultural, and economic backgrounds; • skills in preparing reports and communicating complex ideas; and • the capacity for critical thinking about social issues and problems that confront modern society. (Department of Sociology, University of Alabama-Huntsville)
+
+
+
+RANK 2 | PDF PAGE 35 | SECTION chapter_1
+The predominant American sociologist, the late Peter L. Berger (1929–2017), in his 1963 book, Invitation to Sociology: A Humanistic Perspective, describes a sociologist as “someone concerned with understanding society in a disciplined way.” He asserts that sociologists have a natural interest in the monumental moments of people’s lives, as well as a fascination with banal, everyday occurrences. Berger also describes the “aha”
+
+RANK 3 | PDF PAGE 20 | SECTION chapter_1
+The work sociologists do to understand our society, and the work you will do in learning about it, is meaningful to our lives and our futures. 1.1 What Is Sociology?
+
+LEARNING OBJECTIVES By the end of this section, you should be able to: • Explain concepts central to sociology. • Describe how different sociological perspectives have developed. What Are Society and Culture?
+
+FIGURE 1.2 Sociologists learn about society while studying one-to-one and group interactions. (Credit: GlacierNPS/ Flickr)
+
+Sociology is the scientific and systematic study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups. A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society.
+
+",FALSE,TRUE,2,Rank 3 trang PDF 20 chứa đầy đủ định nghĩa society với cả ba điều kiện.
+C,q17,"Theo C. Wright Mills, sociological imagination giúp nhận biết mối liên hệ nào?","Mối liên hệ giữa hành vi, trải nghiệm cá nhân và nền văn hóa rộng hơn định hình lựa chọn, nhận thức.",21,"Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions.","RANK 1 | PDF PAGE 21 | SECTION chapter_1
+Sociologists often study culture using the sociological imagination, which pioneer sociologist C. Wright Mills described as an awareness of the relationship between a person’s behavior and experience and the wider culture that shaped the person’s choices and perceptions. It’s a way of seeing our own and other people’s behavior in relationship to history and social structure (1959). One illustration of this is a person’s decision to marry. In the United States, this choice is heavily influenced by individual feelings. However, the social acceptability of marriage relative to the person’s circumstances also plays a part.
+
+
+
+RANK 2 | PDF PAGE 22 | SECTION chapter_1
+A key component of the sociological perspective is the idea that the individual and society are inseparable. It is impossible to study one without the other. German sociologist Norbert Elias called the process of simultaneously analyzing the behavior of individuals and the society that shapes that behavior figuration.
+
+
+
+RANK 3 | PDF PAGE 30 | SECTION chapter_1
+Émile Durkheim applied Spencer’s theory to explain how societies change and survive over time. Durkheim believed that society is a complex system of interrelated and interdependent parts that work together to maintain stability (Durkheim, 1893), and that society is held together by shared values, languages, and symbols. He believed that to study society, a sociologist must look beyond individuals to social facts such as laws, morals, values, religious beliefs, customs, fashion, and rituals, which all serve to govern social life (Durkheim, 1895). Alfred Radcliff-Brown (1881–1955) defined the function of any recurrent activity as the part it played in social life as a whole, and therefore the contribution it makes to social stability and continuity (Radcliff-Brown 1952). ",TRUE,TRUE,2,Rank 1 trang PDF 21 chứa đầy đủ định nghĩa của Mills và ngữ cảnh minh họa.
+C,q18,"Ai đặt ra thuật ngữ sociology đầu tiên, vào năm nào, và ai đưa thuật ngữ này trở lại vào năm 1838?",Emmanuel-Joseph Sieyès đặt ra năm 1780; Auguste Comte đưa thuật ngữ trở lại năm 1838.,24,"The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857).","RANK 1 | PDF PAGE 24 | SECTION chapter_1
+The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al. 1999). In 1838, the term was reintroduced by Auguste Comte (1798–1857). Comte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de Rouvroy Comte de Saint-Simon (1760–1825). They both thought that social scientists could study society using the same scientific methods utilized in natural sciences. Comte also believed in the potential of social scientists to work toward the betterment of society. He held that once scholars identified the laws that governed society, sociologists could address problems such as poor education and poverty (Abercrombie et al. 2000).
+
+Comte named the scientific study of social patterns positivism. He described his philosophy in a series of
+
+Access for free at openstax.org.
+
+RANK 2 | PDF PAGE 25 | SECTION chapter_1
+In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title. Spencer rejected much of Comte’s philosophy as well as Marx’s theory of class struggle and his support of communism. Instead, he favored a form of government that allowed market forces to control capitalism. His work influenced many early sociologists including Émile Durkheim (1858–1917). Spencer, using Charles Darwin’s work as a comparison said, “This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr. Darwin has called ‘natural selection,’ or the preservation of favoured races in the struggle for life.” (Spencer, 1864) The statement is often misinterpreted and adopted by those who believe in the superiority of one race over another.
+
+Georg Simmel (1858–1918)
+
+
+
+RANK 3 | PDF PAGE 26 | SECTION chapter_1
+14 1 • An Introduction to Sociology
+
+and analyzed the dynamics of two-person and three-person groups. His work also emphasized individual culture as the creative capacities of individuals (Ritzer and Goodman 2004).
+
+Émile Durkheim (1858–1917)
+
+Émile Durkheim helped establish sociology as a formal academic discipline by establishing the first European department of sociology at the University of Bordeaux in 1895 and by publishing his Rules of the Sociological Method in 1895. In Division of Labour in Society (1893), Durkheim further laid out his theory on how societies transformed from a primitive state into a capitalist, industrial society. According to Durkheim, people rise to their proper levels in society based on merit.
+
+",TRUE,TRUE,2,"Rank 1 trang PDF 24 nêu đủ Sieyès, năm 1780 và Comte đưa thuật ngữ trở lại năm 1838."
+C,q19,"Trong phạm vi chương 2, vì sao case study có hạn chế khi dùng để đưa ra kết luận khái quát?",Nghiên cứu một trường hợp cung cấp chiều sâu nhưng không đủ bằng chứng để đưa ra kết luận khái quát.,62,"However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion.","RANK 1 | PDF PAGE 62 | SECTION chapter_2
+50 2 • Sociological Research
+
+FIGURE2.9 A classroom in Muncie, Indiana, in 1917, five years before John and Helen Lynd began researching this “typical” U.S. community. (Credit: Don O’Brien/flickr)
+
+Case Study
+
+Sometimes a researcher wants to study one specific person or event. A case study is an in-depth analysis of a single event, situation, or individual. To conduct a case study, a researcher examines existing sources like documents and archival records, conducts interviews, engages in direct observation and even participant observation, if possible.
+
+
+
+RANK 2 | PDF PAGE 62 | SECTION chapter_2
+Researchers might use this method to study a single case of a foster child, drug lord, cancer patient, criminal, or rape victim. However, a major criticism of the case study as a method is that while offering depth on a topic, it does not provide enough evidence to form a generalized conclusion. In other words, it is difficult to make universal claims based on just one person, since one person does not verify a pattern. This is why most sociologists do not use case studies as a primary research method.
+
+
+
+RANK 3 | PDF PAGE 48 | SECTION chapter_2
+36 2 • Sociological Research
+
+project future crimes. They found that assaults, pickpocketing and burglary had decreased significantly (Gerell, Kardell, and Kindgren, 2020). In this way, researchers used empirical evidence and statistical analysis to answer the question how did COVID-19 restrictions impact crime rates. In this chapter, we will explore the approaches and methods sociologists use to conduct studies like this one. 2.1 Approaches to Sociological Research
+
+LEARNING OBJECTIVES By the end of this section, you should be able to: • Define and describe the scientific method. • Explain how the scientific method is used in sociological research. • Describe the function and importance of an interpretive framework. • Describe the differences in accuracy, reliability and validity in a research study.
+
+",FALSE,TRUE,2,Rank 2 trang PDF 62 giải thích đầy đủ hạn chế khái quát của case study; cả ba kết quả đều thuộc chapter_2.
+C,q20,"Nếu kết quả trái với quan điểm cá nhân hoặc dự đoán ban đầu, nhà nghiên cứu có nghĩa vụ gì?",Vẫn phải báo cáo kết quả.,65,"Investigators are ethically obligated to report results, even when they contradict personal views, predicted outcomes, or widely accepted beliefs.","RANK 1 | PDF PAGE 55 | SECTION chapter_2
+Questions such as “How does society’s view of alcohol consumption influence your decision whether or not to take your first sip of alcohol?” or “Did you feel that the divorce of your parents would put a social stigma on your family?” involve so many factors that the answers are difficult to categorize. A researcher needs to avoid steering or prompting the subject to respond in a specific way; otherwise, the results will prove to be unreliable. The researcher will also benefit from gaining a subject’s trust, from empathizing or commiserating with a subject, and from listening without judgment.
+
+
+
+RANK 2 | PDF PAGE 53 | SECTION chapter_2
+Not all surveys are considered sociological research, however, and many surveys people commonly encounter focus on identifying marketing needs and strategies rather than testing a hypothesis or contributing to social science knowledge. Questions such as, “How many hot dogs do you eat in a month?” or “Were the staff helpful?” are not usually designed as scientific research. The Nielsen Ratings determine the popularity of television programming through scientific market research. However, polls conducted by television programs such as American Idol or So You Think You Can Dance cannot be generalized, because they are administered to an unrepresentative population, a specific show’s audience. You might receive polls through your cell phones or emails, from grocery stores, restaurants, and retail stores. They often provide you incentives for completing
+
+RANK 3 | PDF PAGE 51 | SECTION chapter_2
+A study asking how tutoring improves grades, for instance, might define “tutoring” as “one-on-one assistance by an expert in the field, hired by an educational institution.” However, one researcher might define a “good” grade as a C or better, while another uses a B+ as a starting point for “good.” For the results to be replicated and gain acceptance within the broader scientific community, researchers would have to use a standard operational definition. These definitions set limits and establish cut-off points that ensure consistency and replicability in a study.
+
+We will explore research methods in greater detail in the next section of this chapter.
+
+Step 5: Draw Conclusions
+
+",FALSE,FALSE,0,Top-3 không có bằng chứng về nghĩa vụ báo cáo kết quả trái quan điểm hoặc dự đoán; không thể trả lời dựa trên các đoạn đã truy xuất.
